@@ -1,11 +1,11 @@
-package edu.uca;
+package edu.uca.productos;
 
-public class Producto {
+public abstract class Productos {
     private int id;
     private String nombre;
     private double precio;
 
-    public Producto(int id, String nombre, double precio) {
+    public Productos(int id, String nombre, double precio) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
@@ -21,7 +21,7 @@ public class Producto {
 
     @Override
     public String toString() {
-        return "Producto{id=" + id + ", nombre='" + nombre + "', precio=" + precio + "}";
+        return "Producto{id=" + id + ", nombre='" + nombre + "', precio=" + precio;
     }
 
 
