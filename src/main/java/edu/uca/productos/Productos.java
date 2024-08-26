@@ -21,7 +21,11 @@ public abstract class Productos {
 
     @Override
     public String toString() {
+<<<<<<< HEAD:src/main/java/edu/uca/productos/Productos.java
         return "Producto{id=" + id + ", nombre='" + nombre + "', precio=" + precio;
+=======
+        return "Nombre: " + nombre + ", id=" + id + ", precio=" + precio ;
+>>>>>>> origin/mostrarProducto:src/main/java/edu/uca/Producto.java
     }
 
 

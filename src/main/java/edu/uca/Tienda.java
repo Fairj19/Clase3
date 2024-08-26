@@ -23,7 +23,11 @@ public class Tienda {
 
     public void mostrarInventario() {
         System.out.println("Inventario: ");
+<<<<<<< HEAD
         for(Productos producto: inventario) {
+=======
+        for (Producto producto : inventario) {
+>>>>>>> origin/mostrarProducto
             System.out.println(producto);
         }
 
